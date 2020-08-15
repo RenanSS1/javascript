@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript | Operações</title>
+</head>
+<body>
+    <script>
+
+        var x = 10, y = 5;
+        // É possivel efetuar todas as operações matematicas.
+        // + - / *
+        // e modulo % (resto de uma operação de divisão)
+        var resultadoOperacao = x + y;
+
+        console.log(resultadoOperacao);
+
+
+        // Não é possível efetuar operações com strings, nesse caso será concatenado a string com o valor inteiro.
+        // ex:
+        var x = "10", y = 5;
+
+        var resultadoString = x + y;
+        // resultado exibido é 105, ao inves de 15.
+        console.log(resultadoString, resultadoOperacao);
+
+
+        var x = 10, y = 5;
+        // efetuando operações utilizando a mesma variavel.
+        x = x + 3;
+        // posso usar 
+        // x += 3;
+        console.log(x);
+
+    </script>
+</body>
+</html>
