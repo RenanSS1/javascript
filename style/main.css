@@ -4,3 +4,19 @@ h1 {
     margin: 0rem 35rem 35rem 35rem;
 
 }
+
+button {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    margin-top: 3.2rem;
+}
+
+input {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    margin-top: 3.2rem;
+}

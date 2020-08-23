@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intervalo e timeout</title>
+</head>
+<body>
+    <script>
+        function exibeAlgo() {
+            console.log('Hello World')
+        }
+        // se for chamado a função como 'exibeAlgo()' será executado somente uma unica vez, ignorando o timer.
+        // setInterval(exibeAlgo, 1000);
+        // dessa forma a função é executada a cada 1 segundo (medida utilizada em milisegundos)
+
+        // timeout executa a função uma vez após o valor determinado
+        setTimeout(exibeAlgo, 5000);
+    </script>
+</body>
+</html>

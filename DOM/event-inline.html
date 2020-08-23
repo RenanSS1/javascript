@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/main.css">
+</head>
+<body>
+    <div id="click">
+        <button onclick="mostraAlerta()">Click Alerta</button>
+    </div>
+
+    <div id="mouse-over">
+        <button onmouseover="alertaOver()">Passe o mouse Alerta</button>
+    </div>
+
+    <div id="key-press">
+        <input onkeypress="keyPress()" />
+    </div>
+
+    <script>
+        function mostraAlerta() {
+            alert('Botão foi clicado');
+        }
+
+        function alertaOver() {
+            alert('Passe o mouse Alerta');
+        }
+
+        function keyPress() {
+            alert('Botão apertado');
+        }
+    </script>
+</body>
+</html>
